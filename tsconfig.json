@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "dist/hidden-blocks.js",
+        "sourceMap": false,
+        "target": "ES6"
+    },
+
+    "files": [
+
+      "definitions/pixi.js.d.ts",
+      "definitions/tween.js.d.ts",
+      "libs/SignalBinding.ts",
+      "libs/Signal.ts",
+      "source/Vec2.ts",
+
+      "source/models/Color.ts",
+      "source/models/Mask.ts",
+      "source/models/Shape.ts",
+      "source/models/Block.ts",
+      "source/models/Grid.ts",
+      "source/models/ShapeMatch.ts",
+      "source/models/Game.ts",
+
+      "source/views/View.ts",
+      "source/views/BlockSprite.ts",
+      "source/views/ShapeView.ts",
+      "source/views/GridView.ts",
+      "source/views/GameView.ts",
+
+      "source/controllers/GridController.ts",
+      "source/controllers/GameController.ts",
+
+      "source/Application.ts",
+      "source/Main.ts",
+      "source/Settings.ts",
+      "source/Utils.ts"
+    ]
+}

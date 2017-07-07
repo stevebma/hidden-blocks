@@ -1,0 +1,28 @@
+{
+  "name": "project-interface",
+  "version": "1.1.0",
+  "description": "Hidden Blocks",
+  "main": "./dist/hidden-blocks.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Bouma",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "typescript-collections": "latest"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-batch": "latest",
+    "gulp-closure-compiler": "latest",
+    "gulp-header": "^1.8.8",
+    "gulp-typescript": "latest",
+    "gulp-uglifyjs": "latest",
+    "gulp-watch": "latest",
+    "run-sequence": "latest"
+  }
+}
