@@ -1,4 +1,4 @@
-** Hidden Bocks **
+** Hidden Blocks **
 Typescript PIXI.js MVC demo game
 
 
